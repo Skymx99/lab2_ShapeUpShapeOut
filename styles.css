@@ -1,0 +1,71 @@
+.rectangle {
+	position: absolute;
+    background-color: green;
+    
+}
+
+.square {
+	position: absolute;
+	background: red;
+}
+
+.circle {
+	position: absolute;
+	background: purple;
+	
+}
+
+/* Cleaner, but slightly less support: use "50%" as value */
+
+.triangle {
+	
+    position: absolute;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-right-color: yellow;
+    border-right-style: solid;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    background-color: darkgrey;
+    position: relative;
+    margin-top: 20px;
+    
+    
+}
+
+.col-md-3 {
+    background-color: rgb(94, 94, 94);
+    
+    
+}
+
+.col-md-5 {
+    margin-top: 20px;
+    position: relative;
+}
+
+.col-md-4 {
+    position: relative;
+    background-color: rgb(94, 94, 94);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    position: relative;
+    justify-content: center;
+}
+
+#shapeInfo {
+    background-color: rgb(94, 94, 94);
+}
+
+p {
+    font-weight: bold;
+}
